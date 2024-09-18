@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("unsplash.jpg");
+    background-size: cover;
+ }
+.nav{
+    padding: 10px 10px;
+    margin : 20px auto;    
+    font-size: 20px;
+    font-weight: bold;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 35%;
+}
+.nav a{
+    color:black;
+    text-align: center;
+    padding:10px;
+    outline: none;
+    text-decoration: none;
+    opacity: 1;
+
+}
+.nav a:hover{
+    background-color: white;
+    transition: 3s;
+    border-radius: 50px;
+}
+hr{
+    margin-top: 20px;
+}
+.MainMenu{
+    padding-top: 10px;
+    width: 52%;
+    margin: auto;
+    text-align: center;
+}
+.MainMenu h1{
+    font-size: 50px;
+}
+.MainMenu h3{
+    font-size: 30px;
+}
+.ConvertMenu{
+    width: 50%;
+    padding: 5px 5px;
+    margin: 10px auto;
+    text-align: center;
+}
+.ConvertMenu a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.ConvertMenu a:hover{
+    text-decoration: underline;
+    font-size: 25px;
+    transition: 1s;
+    
+}

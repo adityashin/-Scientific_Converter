@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+body{
+    background-image: url("../unsplash.jpg");
+    background-size: cover;
+ }
+h2{
+    width: 32%;
+    padding: 10px 10px;
+    display: block;
+    margin: auto;
+    font-size: 30px;
+}
+p{
+    width: 31%;
+    display: block;
+    margin: auto;
+    text-align: center;
+    font-size: 20px;
+}
+#inches{
+    margin-left: 402px;
+    padding: 10px 10px;
+}
+</style>
+<body>
+    <h2>Meter to Centimeter Converter</h2>
+    <p>Type a value in the Meter field to convert the value to Centimeter:</p>
+
+    <p>
+        <label>Meter</label>
+        <input type="number" name="" id="inputcm" placeholder="meter"
+        oninput="LengthConverter(this.value)"
+        onchange="LengthConverter(this.value)">
+        </p>
+    <p id="inches">Centimeter: <span id="outputInches"></span></p>
+    <script>
+        function LengthConverter(valnum){
+            document.getElementById("outputInches").innerHTML=valnum/0.01;
+            document.getElementById("outputInches").style.color='white';
+        }
+    </script>
+</body>
+</html>
